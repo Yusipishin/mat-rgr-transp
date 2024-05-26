@@ -179,8 +179,8 @@ const solveTask = () => {
         const col = minVal.col
         const row = minVal.row
 
-        console.log('Матрица спроса: ',matrSpros)
-        console.log('Матрица объёма: ', matrObiem)
+        console.log('Матрица объёма: ',matrSpros)
+        console.log('Матрица спроса: ', matrObiem)
         console.log('Расположение min элем: ',minVal)
 
         const value = Math.min(matrSpros[row], matrObiem[col])
